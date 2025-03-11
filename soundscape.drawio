@@ -4,6 +4,51 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="yBr3cMkpgPPEkv_e5l39-1" value="api getway" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="140" y="60" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yBr3cMkpgPPEkv_e5l39-2" value="Web server&lt;div&gt;&lt;ul&gt;&lt;li&gt;search song&lt;/li&gt;&lt;li&gt;get playlist&lt;/li&gt;&lt;li&gt;add playlist&lt;/li&gt;&lt;li&gt;update playlist&lt;/li&gt;&lt;li&gt;recommendation-service&lt;/li&gt;&lt;li&gt;publish song, metadata&lt;/li&gt;&lt;li&gt;add artist profile&lt;/li&gt;&lt;li&gt;ad-service&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="345" y="30" width="180" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="yBr3cMkpgPPEkv_e5l39-3" value="Search service - artist, song, album&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="80" y="220" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="yBr3cMkpgPPEkv_e5l39-4" value="&lt;br&gt;user-profile service&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;playlist, follower, playlist likes, shares, settings, etc&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="270" y="220" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="yBr3cMkpgPPEkv_e5l39-5" value="metadata-service - new song added, metadata like genre, artist, likes, views, shares, etc" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="610" y="220" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="yBr3cMkpgPPEkv_e5l39-6" value="&lt;br&gt;artist-profile service&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;div&gt;- bio, genre, followers, songs, albums, etc&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="435" y="220" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="yBr3cMkpgPPEkv_e5l39-7" value="recommendation-service&lt;div&gt;trends, genre, mood, play history&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="85" y="370" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="yBr3cMkpgPPEkv_e5l39-8" value="&lt;div&gt;Postgres - User&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;profile&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Artist Profile&lt;/span&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="160" y="697.5" width="110" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="yBr3cMkpgPPEkv_e5l39-9" value="Elastic search&lt;div&gt;fuzzy search&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="330" y="697.5" width="110" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="yBr3cMkpgPPEkv_e5l39-10" value="Songs metadata-&amp;nbsp;&lt;div&gt;artist, almum, gener, likes, shares, plays&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="500" y="695" width="100" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="yBr3cMkpgPPEkv_e5l39-11" value="s3 - songs, images, etc" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="650" y="690" width="70" height="107.5" as="geometry" />
+        </mxCell>
+        <mxCell id="yBr3cMkpgPPEkv_e5l39-12" value="Datastores" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="435" y="570" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yBr3cMkpgPPEkv_e5l39-13" value="CDN" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="405" y="450" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yBr3cMkpgPPEkv_e5l39-14" value="Redis - store songs, metadata like lyrics" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="760" y="697.5" width="80" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="yBr3cMkpgPPEkv_e5l39-15" value="song-service-&lt;div&gt;play, download&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="280" y="380" width="80" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
